@@ -5,6 +5,7 @@ import java.util.*;
 public class DTransaction {
 	public static void main(String[] args) {
 		try {
+			System.out.println("Main Method");
 			Scanner s=new Scanner(System.in);
 			Connection con=DBConnection.getCon();
 			con.setAutoCommit(false);//step1
