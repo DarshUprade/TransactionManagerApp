@@ -7,7 +7,6 @@ public final class TransData implements Serializable{
 	private final float amt;
 	private final java.util.Date d;
 	public TransData(long hAccNo,long bAccNo,float amt,java.util.Date d) {
-		System.out.println("Constructor Called");
 		this.hAccNo=hAccNo;
 		this.bAccNo=bAccNo;
 		this.amt=amt;
